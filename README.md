@@ -42,3 +42,7 @@ Release Firefox only installs signed add-ons permanently. To sign it for your ow
 5. Once validation and signing finish, download the signed `.xpi` and open it in Firefox (drag it into a window, or use *Install Add-on From File…* in `about:addons`).
 
 To publish an update, bump `version` in `manifest.json`, rebuild the zip, and upload it as a new version.
+
+## License
+
+Released into the public domain under [The Unlicense](LICENSE). Use it however you like.

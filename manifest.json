@@ -3,9 +3,10 @@
   "name": "Classic Dark",
   "version": "1.1",
   "description": "A calm, neutral dark theme with solid colors matching Firefox's classic Proton dark design. No gradients, no images.",
+  "homepage_url": "https://github.com/Endre-Tonnessen/Firefox-classic-dark-theme",
   "browser_specific_settings": {
     "gecko": {
-      "id": "classic-dark@example.com"
+      "id": "classic-dark@endre-tonnessen.github.io"
     }
   },
   "theme": {
