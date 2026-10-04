@@ -25,7 +25,9 @@ Every surface is a single solid color, and the theme sets all of Firefox's theme
 
 ## Install
 
-Download the signed `.xpi` from the [latest release](https://github.com/Endre-Tonnessen/Firefox-classic-dark-theme/releases/latest) and open it in Firefox (or drag it into a window). Then pick **Classic Dark** under **Themes** in `about:addons`.
+### [⬇ Install Classic Dark](https://github.com/Endre-Tonnessen/Firefox-classic-dark-theme/releases/latest/download/classic-dark.xpi)
+
+Open the link above in Firefox. It always downloads the latest signed version. Then click the downloaded file to install it, and pick **Classic Dark** under **Themes** in `about:addons`. Older versions are on the [releases page](https://github.com/Endre-Tonnessen/Firefox-classic-dark-theme/releases).
 
 ## Test it temporarily
 
@@ -52,9 +54,9 @@ Everything is managed from the **[AMO Developer Hub](https://addons.mozilla.org/
 1. Bump `version` in `manifest.json` (every upload needs a new version number) and rebuild `classic-dark-theme.zip`.
 2. In the Developer Hub, open **Classic Dark → Upload New Version** and upload the zip.
 3. When it's signed, right-click the `.xpi` link and choose **Save Link As…** (left-clicking installs it instead).
-4. Attach it to a GitHub release:
+4. Rename it to `classic-dark.xpi` (keep this name so the install link always works) and attach it to a GitHub release:
    ```
-   gh release create v<version> path/to/file.xpi --title "Classic Dark <version>" --notes "..."
+   gh release create v<version> classic-dark.xpi --title "Classic Dark <version>" --notes "..."
    ```
 
 ## License
