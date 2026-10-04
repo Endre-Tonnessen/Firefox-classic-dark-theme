@@ -1,5 +1,9 @@
 # Classic Dark
 
+[![Downloads](https://img.shields.io/github/downloads/Endre-Tonnessen/Firefox-classic-dark-theme/total)](https://github.com/Endre-Tonnessen/Firefox-classic-dark-theme/releases)
+[![Latest version](https://img.shields.io/github/v/release/Endre-Tonnessen/Firefox-classic-dark-theme)](https://github.com/Endre-Tonnessen/Firefox-classic-dark-theme/releases/latest)
+[![License](https://img.shields.io/github/license/Endre-Tonnessen/Firefox-classic-dark-theme)](LICENSE)
+
 **A calm, deep-dark Firefox theme that brings back the look of the classic Proton design: solid, neutral colors with no gradients, no images and no purple tint.**
 
 ![Classic Dark preview](docs/preview.svg)
