@@ -23,6 +23,10 @@ Every surface is a single solid color, and the theme sets all of Firefox's theme
 | Attention icon | `#54ffbd` |
 | Selected text in address bar | `#2e7082` |
 
+## Install
+
+Download the signed `.xpi` from the [latest release](https://github.com/Endre-Tonnessen/Firefox-classic-dark-theme/releases/latest) and open it in Firefox (or drag it into a window). Then pick **Classic Dark** under **Themes** in `about:addons`.
+
 ## Test it temporarily
 
 1. Open `about:debugging` in Firefox.
@@ -41,7 +45,17 @@ Release Firefox only installs signed add-ons permanently. To sign it for your ow
 4. Upload `classic-dark-theme.zip` (it has `manifest.json` at its root).
 5. Once validation and signing finish, download the signed `.xpi` and open it in Firefox (drag it into a window, or use *Install Add-on From File…* in `about:addons`).
 
-To publish an update, bump `version` in `manifest.json`, rebuild the zip, and upload it as a new version.
+## Publishing an update
+
+Everything is managed from the **[AMO Developer Hub](https://addons.mozilla.org/en-US/developers/)** (your add-ons are under [My Add-ons](https://addons.mozilla.org/en-US/developers/addons)).
+
+1. Bump `version` in `manifest.json` (every upload needs a new version number) and rebuild `classic-dark-theme.zip`.
+2. In the Developer Hub, open **Classic Dark → Upload New Version** and upload the zip.
+3. When it's signed, right-click the `.xpi` link and choose **Save Link As…** (left-clicking installs it instead).
+4. Attach it to a GitHub release:
+   ```
+   gh release create v<version> path/to/file.xpi --title "Classic Dark <version>" --notes "..."
+   ```
 
 ## License
 
