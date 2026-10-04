@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" font-family="Segoe UI, system-ui, sans-serif">
+  <defs>
+    <clipPath id="win"><rect width="880" height="420" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#win)">
+    <!-- frame / tab bar -->
+    <rect width="880" height="44" fill="#131217"/>
+    <rect x="10" y="7" width="210" height="30" rx="5" fill="#35343e"/>
+    <circle cx="28" cy="22" r="6" fill="#00ddff"/>
+    <text x="42" y="27" font-size="13" fill="#fbfbfe">Classic Dark</text>
+    <text x="202" y="27" font-size="13" fill="#fbfbfe" opacity="0.7">×</text>
+    <circle cx="242" cy="22" r="6" fill="#fbfbfe" opacity="0.5"/>
+    <text x="256" y="27" font-size="13" fill="#fbfbfe" opacity="0.85">New Tab</text>
+    <text x="418" y="27" font-size="13" fill="#fbfbfe" opacity="0.7">×</text>
+    <text x="446" y="28" font-size="16" fill="#fbfbfe">+</text>
+    <!-- toolbar -->
+    <rect y="44" width="880" height="46" fill="#201f26"/>
+    <g fill="none" stroke="#fbfbfe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M26 67h14M26 67l6-6M26 67l6 6"/>
+      <path d="M70 67H56M70 67l-6-6M70 67l-6 6" opacity="0.4"/>
+      <path d="M95 61a8 8 0 1 0 2 8M95 57v5h-5"/>
+    </g>
+    <rect x="120" y="52" width="620" height="30" rx="5" fill="#131217"/>
+    <text x="136" y="72" font-size="13" fill="#fbfbfe">Search or enter address</text>
+    <rect x="756" y="54" width="26" height="26" rx="4" fill="#45454f"/>
+    <circle cx="769" cy="67" r="5" fill="none" stroke="#fbfbfe" stroke-width="2"/>
+    <circle cx="810" cy="67" r="5" fill="#54ffbd"/>
+    <path d="M840 61h14M840 67h14M840 73h14" stroke="#fbfbfe" stroke-width="2" stroke-linecap="round"/>
+    <!-- sidebar -->
+    <rect y="90" width="200" height="330" fill="#2b2a31"/>
+    <rect x="200" y="90" width="1" height="330" fill="#3e3d44"/>
+    <text x="18" y="118" font-size="13" fill="#f9f9fa" font-weight="600">Bookmarks</text>
+    <rect x="10" y="132" width="180" height="26" rx="4" fill="#00ddff"/>
+    <text x="22" y="150" font-size="12" fill="#201f26">Mozilla</text>
+    <text x="22" y="180" font-size="12" fill="#f9f9fa">Firefox Add-ons</text>
+    <text x="22" y="206" font-size="12" fill="#f9f9fa">MDN Web Docs</text>
+    <!-- new tab page -->
+    <rect x="201" y="90" width="679" height="330" fill="#201f26"/>
+    <rect x="300" y="130" width="480" height="38" rx="6" fill="#35343e"/>
+    <text x="318" y="154" font-size="13" fill="#fbfbfe" opacity="0.8">Search the web</text>
+    <g fill="#35343e">
+      <rect x="300" y="196" width="96" height="80" rx="8"/>
+      <rect x="428" y="196" width="96" height="80" rx="8"/>
+      <rect x="556" y="196" width="96" height="80" rx="8"/>
+      <rect x="684" y="196" width="96" height="80" rx="8"/>
+    </g>
+    <!-- popup menu -->
+    <rect x="610" y="88" width="250" height="150" rx="6" fill="#35343e" stroke="#45454f"/>
+    <rect x="616" y="96" width="238" height="28" rx="4" fill="#201f26"/>
+    <text x="628" y="115" font-size="12" fill="#fbfbfe">New window</text>
+    <text x="628" y="147" font-size="12" fill="#fbfbfe">New private window</text>
+    <rect x="620" y="162" width="230" height="1" fill="#45454f"/>
+    <text x="628" y="187" font-size="12" fill="#fbfbfe">Bookmarks</text>
+    <text x="628" y="217" font-size="12" fill="#fbfbfe">Settings</text>
+  </g>
+</svg>

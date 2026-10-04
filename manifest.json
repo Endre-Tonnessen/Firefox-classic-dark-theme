@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "Classic Dark",
+  "version": "1.1",
+  "description": "A calm, neutral dark theme with solid colors matching Firefox's classic Proton dark design. No gradients, no images.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "classic-dark@example.com"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#131217",
+      "frame_inactive": "#131217",
+      "tab_background_text": "#fbfbfe",
+      "tab_selected": "#35343e",
+      "tab_text": "#fbfbfe",
+      "tab_line": "transparent",
+      "tab_loading": "#00ddff",
+
+      "toolbar": "#201f26",
+      "toolbar_text": "#fbfbfe",
+      "icons": "#fbfbfe",
+      "icons_attention": "#54ffbd",
+      "bookmark_text": "#fbfbfe",
+      "button_background_hover": "#45454f",
+      "button_background_active": "#4f4f59",
+      "toolbar_top_separator": "transparent",
+      "toolbar_bottom_separator": "transparent",
+      "toolbar_vertical_separator": "#45454f",
+
+      "toolbar_field": "#131217",
+      "toolbar_field_text": "#fbfbfe",
+      "toolbar_field_border": "transparent",
+      "toolbar_field_focus": "#35343e",
+      "toolbar_field_text_focus": "#fbfbfe",
+      "toolbar_field_border_focus": "#00ddff",
+      "toolbar_field_highlight": "#2e7082",
+      "toolbar_field_highlight_text": "#fbfbfe",
+
+      "popup": "#35343e",
+      "popup_text": "#fbfbfe",
+      "popup_border": "#45454f",
+      "popup_highlight": "#201f26",
+      "popup_highlight_text": "#fbfbfe",
+
+      "sidebar": "#2b2a31",
+      "sidebar_text": "#f9f9fa",
+      "sidebar_border": "#3e3d44",
+      "sidebar_highlight": "#00ddff",
+      "sidebar_highlight_text": "#201f26",
+
+      "ntp_background": "#201f26",
+      "ntp_text": "#fbfbfe",
+      "ntp_card_background": "#35343e"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" font-family="Segoe UI, system-ui, sans-serif">
+  <rect width="880" height="120" rx="10" fill="#131217"/>
+  <g font-size="12" fill="#fbfbfe">
+    <rect x="16" y="16" width="96" height="56" rx="6" fill="#131217" stroke="#45454f"/>
+    <text x="16" y="92">Frame</text><text x="16" y="108" opacity="0.6">#131217</text>
+    <rect x="124" y="16" width="96" height="56" rx="6" fill="#201f26" stroke="#45454f"/>
+    <text x="124" y="92">Toolbar</text><text x="124" y="108" opacity="0.6">#201f26</text>
+    <rect x="232" y="16" width="96" height="56" rx="6" fill="#2b2a31"/>
+    <text x="232" y="92">Sidebar</text><text x="232" y="108" opacity="0.6">#2b2a31</text>
+    <rect x="340" y="16" width="96" height="56" rx="6" fill="#35343e"/>
+    <text x="340" y="92">Tab / popup</text><text x="340" y="108" opacity="0.6">#35343e</text>
+    <rect x="448" y="16" width="96" height="56" rx="6" fill="#45454f"/>
+    <text x="448" y="92">Hover / border</text><text x="448" y="108" opacity="0.6">#45454f</text>
+    <rect x="556" y="16" width="96" height="56" rx="6" fill="#fbfbfe"/>
+    <text x="556" y="92">Text</text><text x="556" y="108" opacity="0.6">#fbfbfe</text>
+    <rect x="664" y="16" width="96" height="56" rx="6" fill="#00ddff"/>
+    <text x="664" y="92">Accent</text><text x="664" y="108" opacity="0.6">#00ddff</text>
+    <rect x="772" y="16" width="92" height="56" rx="6" fill="#54ffbd"/>
+    <text x="772" y="92">Attention</text><text x="772" y="108" opacity="0.6">#54ffbd</text>
+  </g>
+</svg>
